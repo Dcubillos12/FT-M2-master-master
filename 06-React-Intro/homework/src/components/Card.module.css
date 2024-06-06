@@ -1,0 +1,27 @@
+.card{      
+    width: fit-content;/*ajustar el ancho al contenido*/
+    overflow: hidden;/*todo lo que supere el tamaño del componente lo limpiamos*/
+}
+
+.button{      
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.temperatura{
+    width: 100%;
+    height: 64px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.nombre{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+span.nombre{
+    font-size: 50px;
+}

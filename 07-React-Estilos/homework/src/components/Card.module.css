@@ -1,0 +1,57 @@
+.root{
+    background-image: url('https://services.meteored.com/img/article/efectos-domino-creados-por-los-oceanos-que-ya-cambian-el-clima-global-319551-1_1024.jpg');
+    border: 2px solid black;
+    padding-right: 50px;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.root:hover{    
+  box-shadow:
+       inset 0 -3em 3em rgba(0, 0, 0, 0.542),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0, 0, 0, 0.812);
+}
+.nombre{
+    font-size: 70px;
+    margin-top: 30px;
+    color: white;
+}
+.cierre{
+    color: aliceblue;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-left: 4px;
+    border-left-width: 4px;
+    margin-left: 359px;
+    margin-top: 16px;
+    text-decoration: none;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    float: left;
+    margin-left: 60px;
+    margin-top: 50px;
+
+}
+.max{
+    /* display: flex;
+    justify-content: space-around; */
+    color: white;
+    float: left;
+}
+.min{
+    /* display: flex;
+    justify-content: space-around; */
+    color: white;
+    margin-left: 50px;    
+}
+.img{
+    padding: 10px;
+}

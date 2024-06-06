@@ -1,0 +1,23 @@
+.searchBar{
+    border: solid 1px gray;
+    width: fit-content;/*ajustar el ancho al contenido*/
+    border-radius: 4px;
+    overflow: hidden;/*todo lo que supere el tamaño del componente lo limpiamos*/
+    display: flex;
+}
+
+.icon{
+    margin: 8px;
+}
+.input{
+    padding: 8px;
+    border:none;/*sacar los bordes*/  
+    font-family:'Vazirmatn', sans-serif;
+    outline: none;
+}
+
+.submit{
+    color: #9ef01a;
+    background-color: rgb(65, 63, 63);
+    border: solid 2px #9ef01a;    
+}

@@ -1,0 +1,20 @@
+.boton{
+    background-color: green;
+    color: greenyellow;
+    width: 150px;
+    font-size: 20px;
+    margin-bottom: 50PX;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 20px;
+    border: 5px solid greenyellow;
+
+}
+.input{
+    background-color: rgb(57, 55, 55);
+}
+.ciudad{
+    height: 42px;
+    border-radius: 5px;
+}
