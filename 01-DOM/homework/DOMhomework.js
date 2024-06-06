@@ -11,7 +11,6 @@ const newUser = document.querySelector('#createdBy')
 newUser.innerHTML = 'Aplicación creada por Diego'
 console.log(newUser.innerHTML);
 
-
 // Crear una clase denominada 'ToDo' cuyo constructor debe recibir un único parámetro del tipo string
 // con el nombre 'description' que será justamente la descripción del ToDo.
 // Agregar dos propiedades a la clase:
@@ -22,8 +21,8 @@ console.log(newUser.innerHTML);
 
 function ToDo(description) {
   // Tu código acá:
-  this.description = description
-  this.complete = false
+  this.description = description;
+  this.complete = false;
 }
 
 
@@ -32,7 +31,7 @@ function ToDo(description) {
 // Debe setear el atributo 'complete' del ToDo en true
 
 // Tu código acá:
-ToDo.prototype.completeToDo = function(){
+ToDo.prototype.completeToDo = function () {
   this.complete = true
 }
 
@@ -54,14 +53,14 @@ ToDo.prototype.completeToDo = function(){
 //    7) Agregar 'toDoText' como hijo de 'toDoShell'
 //    8) Devolver la variable toDoShell
 
-function buildToDo(todo,index) {
+function buildToDo(todo, index) {
   // Tu código acá:
   let toDoShell = document.createElement('div')
   toDoShell.className = 'toDoShell'
   let toDoText = document.createElement('span')
   toDoText.innerHTML = todo.description
   toDoText.id = index
-  if(todo.complete){
+  if (todo.complete) {
     toDoText.className = 'completeText'
   }
   toDoShell.appendChild(toDoText)
@@ -76,7 +75,7 @@ function buildToDo(todo,index) {
 
 function buildToDos(toDos) {
   // Tu código acá:  
-  return toDos.map((todo,index) => buildToDo(todo,index))
+  return toDos.map((todo, index) => buildToDo(todo, index))
 }
 
 
@@ -118,7 +117,7 @@ function addToDo() {
   toDoItems.push(newInput)
 
   // 3) Setear el valor del input toDoInput como un string vacío ("")
- todoInput.innerHTML = ''
+  todoInput.innerHTML = ''
 
   // 4) Llamar a la función displayToDos para que se actualicen los toDos mostrados en pantalla
   displayToDos()
